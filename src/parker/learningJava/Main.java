@@ -3,7 +3,7 @@ package parker.learningJava;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    printDayOfTheWeek(-1);
     }
     private static void printDayOfTheWeek(int day){
         switch(day){
@@ -30,6 +30,10 @@ public class Main {
                 break;
             case 7:
                 System.out.println("Sunday");
+                break;
+
+            default:
+                System.out.println("Invalid day");
                 break;
         }
     }
